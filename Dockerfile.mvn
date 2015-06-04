@@ -1,5 +1,4 @@
-FROM caarlos0/alpine-oraclejdk7
-MAINTAINER Carlos Alexandro Becker <caarlos0@gmail.com>
+FROM caarlos0/alpine-oraclejdk7:latest
 
 ENV MAVEN_VERSION="3.2.5" \
     M2_HOME=/usr/lib/mvn
@@ -11,5 +10,4 @@ RUN apk add --update wget && \
   mv "apache-maven-$MAVEN_VERSION" "$M2_HOME" && \
   ln -s "$M2_HOME/bin/mvn" /usr/bin/mvn && \
   apk del wget && \
-  rm -rf "apache-maven-$MAVEN_VERSION" && \
   rm /tmp/* /var/cache/apk/*
