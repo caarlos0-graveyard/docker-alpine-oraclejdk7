@@ -28,5 +28,3 @@ RUN apk add --update wget ca-certificates && \
     rm -rf $JAVA_HOME/*src.zip && \
     apk del wget ca-certificates && \
     rm /tmp/* /var/cache/apk/*
-
-CMD ["java --version"]
