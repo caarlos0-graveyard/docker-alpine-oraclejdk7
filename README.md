@@ -7,8 +7,13 @@ This repository also has a Dockerfile to build an image with
 
 ## Images
 
-- Image with Oracle JDK7 only: [![](https://badge.imagelayers.io/caarlos0/alpine-oraclejdk7.svg)](https://imagelayers.io/?images=caarlos0/alpine-oraclejdk7 'Get your own badge on imagelayers.io')
-- Image with Oracle JDK& and Apache Maven: [![](https://badge.imagelayers.io/caarlos0/alpine-oraclejdk7-mvn.svg)](https://imagelayers.io/?images=caarlos0/alpine-oraclejdk7-mvn 'Get your own badge on imagelayers.io')
+- Image with Oracle JDK7 only:
+
+  [![](https://badge.imagelayers.io/caarlos0/alpine-oraclejdk7.svg)](https://imagelayers.io/?images=caarlos0/alpine-oraclejdk7 'Get your own badge on imagelayers.io')
+
+- Image with Oracle JDK& and Apache Maven:
+
+  [![](https://badge.imagelayers.io/caarlos0/alpine-oraclejdk7-mvn.svg)](https://imagelayers.io/?images=caarlos0/alpine-oraclejdk7-mvn 'Get your own badge on imagelayers.io')
 
 ## Usage Example
 
